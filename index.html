@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+    
+        .stick{
+            border:2px solid black;
+            background-color:black;
+            color:white;
+            position:fixed;
+            left:190px;
+            top:122px;
+        }
+        .container{
+            border:2px solid black;
+            height:150px;
+            width:620px;
+            margin:8px;
+            
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+            
+      flex-wrap:wrap;
+            
+         background-color:#000000dd;
+           color:white;
+          
+        }
+        .img{
+            width :220px;
+            margin:3px;
+       border-radius:4px;
+        
+        }
+        .card{
+           
+            align-self: start;
+            margin:3px;
+        }
+   .ab{
+       margin:3px;
+   }
+         .list{
+          display:flex;
+          gap:16px;
+          flex-direction:row;
+ 
+          list-style:none;
+      }
+      #btn{
+          width=100px;
+      }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card"><img src="content://com.android.providers.downloads.documents/document/1770" alt="" class="img"></div> 
+        <div class="ab" class="card"><h3>OUR FIRST HTML WEBSITE | SIGMA WEB DEV  #2</h3></div>
+        <div class="card" class="box"><div class="list">code with harry . 727k views. 8months ago
+              
+            </div>
+                
+   <div class="stick">31.20</div>
+   <button  onclick="card()" id="btn">click</button>
+   </div>
+  
+ 
+   <script src="script.js"></script>
+</body>
+</html>
